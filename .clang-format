@@ -1,0 +1,26 @@
+################################################################################
+Language                                       : Cpp
+Standard                                       : c++17
+BasedOnStyle                                   : Google
+################################################################################
+AccessModifierOffset                           : -4
+AlignTrailingComments                          : true
+AllowShortBlocksOnASingleLine                  : Never
+AllowShortLambdasOnASingleLine                 : All
+BinPackParameters                              : true
+BreakBeforeBraces                              : Attach
+BreakConstructorInitializers                   : BeforeComma
+ColumnLimit                                    : 80
+ConstructorInitializerAllOnOneLineOrOnePerLine : true
+Cpp11BracedListStyle                           : false
+IndentWidth                                    : 4
+MaxEmptyLinesToKeep                            : 2
+NamespaceIndentation                           : All
+PointerAlignment                               : Left
+SpaceBeforeCpp11BracedList                     : false
+SpacesBeforeTrailingComments                   : 2
+SpacesInAngles                                 : false
+SpacesInSquareBrackets                         : false
+TabWidth                                       : 4
+UseTab                                         : Never
+################################################################################
