@@ -1,7 +1,6 @@
 #include "../include/CQuoteDay.hpp"
 
 #include <random>
-#include <type_traits>
 
 
 size_t getRandom(size_t start, size_t end) {
@@ -37,7 +36,7 @@ CQuoteDay::CQuoteDay(std::string const& filename) {
 }
 
 // Get random quotes from file
-std::remove_reference_t<std::string> const& CQuoteDay::getRandomQuote() const {
+std::string const& CQuoteDay::getRandomQuote() const {
     size_t r = getRandom(0, m_quotes.size() - 1);
     return m_quotes.at(r);
 }

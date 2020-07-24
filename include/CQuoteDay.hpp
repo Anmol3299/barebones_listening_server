@@ -11,7 +11,7 @@ public:
     explicit CQuoteDay(std::string const& filename);
 
     // get a random quote from the file
-    std::remove_reference_t<std::string> const& getRandomQuote() const;
+    std::string const& getRandomQuote() const;
 
 private:
     // the quotes
